@@ -14,6 +14,7 @@ _Create a GitHub Action and use it in a workflow._
 </header>
 
 <!--
+
   <<< Author notes: Step 2 >>>
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
@@ -39,6 +40,7 @@ In this step of our exercise, we will add a "build" job. We will specify `ubuntu
 
 ### :keyboard: Activity: Add a job to your workflow file
 
+
 1. Open your `welcome.yml` file.
 2. Update the contents of the file to:
    ```yaml
@@ -52,6 +54,8 @@ In this step of our exercise, we will add a "build" job. We will specify `ubuntu
      build:
        name: Post welcome comment
        runs-on: ubuntu-latest
+
+
    ```
 3. Click **Start commit** in the top right of the workflow editor.
 4. Type your commit message and commit your changes directly to your branch.
